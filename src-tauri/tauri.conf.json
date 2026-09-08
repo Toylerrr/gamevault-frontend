@@ -28,7 +28,13 @@
   },
   "bundle": {
     "active": true,
-    "targets": ["nsis", "app", "dmg", "appimage", "deb"],
+    "targets": [
+      "nsis",
+      "app",
+      "dmg",
+      "appimage",
+      "deb"
+    ],
     "publisher": "Phalcode",
     "license": "CC BY-NC-SA 4.0",
     "homepage": "https://gamevau.lt",
@@ -55,6 +61,9 @@
           "usr/share/doc/gamevault/copyright": "debian-copyright",
           "usr/share/metainfo/com.phalcode.gamevault.metainfo.xml": "linux/com.phalcode.gamevault.metainfo.xml"
         }
+      },
+      "appimage": {
+        "bundleMediaFramework": true
       }
     }
   },
